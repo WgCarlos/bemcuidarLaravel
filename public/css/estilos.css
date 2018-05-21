@@ -1,0 +1,169 @@
+.btn-cadastro{
+	margin-left: 980px;
+}
+.sobre-nos{
+	margin-top: 50px;
+}
+.sobre-nos h4{
+	color: #808080;
+}
+.sobre-nos h3{
+	margin-top: 70px;
+	text-align: center;
+}
+.prof-home{
+	margin-top: 50px;
+}
+.prof-home h4{
+	color: #808080;
+}
+.prof-home h3{
+	text-align: center;
+}
+.carousel-inner {
+	margin-top: 60px;
+	height: 400px ; 
+}
+.beneficios{
+	margin-top: 70px;
+}
+.footer{
+	background-color: #343a40;
+}
+.alert alert-dark text-center{
+	font-size: 16px;
+	font-size: 110%;
+}
+.notice {
+    padding: 15px;
+    background-color: #ffffff;
+    border-left: 6px solid #404042;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
+       -moz-box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
+            box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
+}
+.notice-danger {
+	border-color: #404042;
+	font-size: large;
+}
+.notice-danger>strong {
+	color: #404042;
+	font-size: large;
+}
+.featurette-image{
+	height: 350px;
+	width: 500px;
+}
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote {
+    color: rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+#beneficios{
+	margin-top: 10px;
+	width: 80px;
+}
+.login{
+  margin-top: 150px;
+}
+
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+
+#fade-quote-carousel.carousel {
+  padding-bottom: 60px;
+}
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #e84a64;
+  border: none;
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+}
+#fade-quote-carousel .profile-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+/* Modal Box */
+
+.brandmodal .modal-title { display: block; margin-left: center; margin-right: auto; max-width:200px; max-height:300px;  }
+.brandmodal .modal-body { background:#474747; color:#FFFFFF; }
+.modal-body h2 { text-align: center; margin:0 auto; background:#243B81; padding:5px; color:white; margin-bottom:2px;  border-radius:5px 5px 0px 0px;}
+#botao{font-size: 15px;}
+.btn btn-default{text-align: left }
+
+/* MoDAL FORM */
+.modalform-group { border-radius:0px; overflow: hidden; padding:0px; }
+.modalform-group input,.modalform-group span { border-radius:0px; border:1px solid #474747; border-right:2px solid #474747; }
+.modalform-group span { background:#474747; color:#FFFFFF; }
+.modalform-group input[type=button],.modalform-group input[type=submit],.modalform-group button { border-radius:2px; margin-top:2px; }
+
+.senha{
+    text-align: right;
+}
+
+
+/* formulário de Inscrição */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+
+body {
+    background: #fff;
+	font-family: 'Roboto', sans-serif;
+	color:#333;
+	line-height: 22px;	
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	color:#111;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+h1, h2, h3 {
+	text-transform:uppercase;
+}
+
+input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    cursor: pointer;
+    opacity: 1;
+    filter: alpha(opacity=1);    
+}
+
+.form-inline .form-group{
+    margin-left: 0;
+    margin-right: 0;
+}
+
